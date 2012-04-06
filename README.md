@@ -21,3 +21,28 @@ Where requested we can also [analyse client data](#client-data) and identify spe
 Analysing client user data, through analytics software, we can create an interactive experience suited to specific user requirements. e.g. if the user base primarily uses modern browsers the designed experience can target advanced browser features.
 
 A cut off point for support is recommended at &lt; 2%. [[2](#note-2)]
+
+####Client requirements
+
+We understand that the client may have specific requirements for interactive development. e.g. support of a specific browser that may otherwise be unsupported or the use of a particular technology that have implications for the development process. [[2](#note-2)]
+
+###Graded browser support
+
+####Grade A support
+
+Pages rendered in browsers with Grade A support will meet the functional specification, user interface specification and creative design. If a level one browser is incapable of meeting any of these criteria either the particular criteria will need to be altered to match the browser capability or the browser should be reduced to Grade B support.
+
+####Grade B support
+
+Pages rendered in browsers with Grade B support will meet the functional specification. The majority of the user interface specification and creative design will be met dependent on the capability of the browser, if either criteria is a barrier to meeting the functional specification, the functional specification will take priority.
+
+####Grade C support
+
+Pages rendered in browsers with Grade C support will meet the functional specification. The user interface specification and creative design will be used as guidance, meeting the functional specification and making content available takes priority.
+
+####Unsupported
+
+Unsupported browsers will not be reviewed during development or quality assurance.
+
+
+
