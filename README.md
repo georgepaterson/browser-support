@@ -2,7 +2,7 @@
 
 ###Purpose of this document
 
-This document is designed to provide a template for agreeing development deliverables with the client. It is structured to be a modular document where sections can be updated or removed depending on the requirements of the project. [[1](#note-1)]
+This document is designed to provide a template for agreeing development deliverables with the client. It is structured to be a modular document where sections can be updated or removed depending on the requirements of the project. [[^1]]
 
 ###Development approach
 
@@ -43,6 +43,19 @@ Pages rendered in browsers with Grade C support will meet the functional specifi
 ####Unsupported
 
 Unsupported browsers will not be reviewed during development or quality assurance.
+
+###Graded browser matrix
+
+The graded browser matrix details browsers, operating systems and their support level during the development process.
+
+###Notes
+
+
+[^1]: This section is for information only and should be removed.
+
+
+
+
 
 
 
