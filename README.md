@@ -132,7 +132,7 @@ The graded browser matrix details browsers, operating systems and their support 
 
 ###Notes
 
-<a id="note-1" href="#">[1]</a> This section is for information only and should be removed. 
+[<a name="note-1" href="#">1</a>] This section is for information only and should be removed. 
 
 
 
