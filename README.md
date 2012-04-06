@@ -49,7 +49,6 @@ Unsupported browsers will not be reviewed during development or quality assuranc
 The graded browser matrix details browsers, operating systems and their support level during the development process.
 
 <table>
-	<caption>Graded browser matrix</caption>
 	<thead>
 		<tr>
 			<th scope="col">Browser</th>
@@ -65,17 +64,17 @@ The graded browser matrix details browsers, operating systems and their support 
 	<tbody>
 		<tr>
 			<th scope="row">Firefox 11.x</th>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<th scope="row">Chrome 18.x</th>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
 			<td></td>
 			<td></td>
 		</tr>
@@ -83,29 +82,29 @@ The graded browser matrix details browsers, operating systems and their support 
 			<th scope="row">Safari 5.x</th>
 			<td></td>
 			<td></td>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<th scope="row">Internet Explorer 9</th>
 			<td></td>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
 			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<th scope="row">Internet Explorer 8</th>
-			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
-			<td class="level-two"><a href="#grade-b-support">Grade B support</a></td>
+			<td><a href="#grade-a-support">Grade A support</a></td>
+			<td><a href="#grade-b-support">Grade B support</a></td>
 			<td></td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<th scope="row">Internet Explorer 7</th>
-			<td class="level-two"><a href="#grade-b-support">Grade B support</a></td>
+			<td><a href="#grade-b-support">Grade B support</a></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -116,7 +115,7 @@ The graded browser matrix details browsers, operating systems and their support 
 			<td></td>
 			<td></td>
 			<td></td>
-			<td class="level-one"><a href="#grade-a-support">Grade B support</a></td>
+			<td><a href="#grade-a-support">Grade B support</a></td>
 			<td></td>
 		</tr>
 		<tr>
@@ -125,14 +124,18 @@ The graded browser matrix details browsers, operating systems and their support 
 			<td></td>
 			<td></td>
 			<td></td>
-			<td class="level-one"><a href="#grade-a-support">Grade B support</a></td>
+			<td><a href="#grade-a-support">Grade B support</a></td>
 		</tr>
 	</tbody>
 </table>
 
+Although browser implementation variations are negligible between operating system, they are included as guidance for [quality assurance](#quality-assurance). [[3](#note-3)]
+
 ###Notes
 
-[<a name="note-1" href="#">1</a>] This section is for information only and should be removed. 
+[<a name="note-1">1</a>] This section is for information only and should be removed.
+[<a name="note-2">2</a>] 
+[<a name="note-3">3</a>]  
 
 
 
