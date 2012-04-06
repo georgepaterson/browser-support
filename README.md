@@ -2,7 +2,7 @@
 
 ###Purpose of this document
 
-This document is designed to provide a template for agreeing development deliverables with the client. It is structured to be a modular document where sections can be updated or removed depending on the requirements of the project. [[^1]]
+This document is designed to provide a template for agreeing development deliverables with the client. It is structured to be a modular document where sections can be updated or removed depending on the requirements of the project. [[1](#note-1)]
 
 ###Development approach
 
@@ -50,8 +50,7 @@ The graded browser matrix details browsers, operating systems and their support 
 
 ###Notes
 
-
-[^1]: This section is for information only and should be removed.
+[1] This section is for information only and should be removed. 
 
 
 
