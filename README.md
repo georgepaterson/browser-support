@@ -48,9 +48,91 @@ Unsupported browsers will not be reviewed during development or quality assuranc
 
 The graded browser matrix details browsers, operating systems and their support level during the development process.
 
+<table>
+	<caption>Graded browser matrix</caption>
+	<thead>
+		<tr>
+			<th scope="col">Browser</th>
+			<th scope="col">Windows XP</th>
+			<th scope="col">Windows 7</th>
+			<th scope="col">OS 10.7</th>
+			<th scope="col">iOS 5.x</th>
+			<th scope="col">Android 2.x</th>
+		</tr>
+	</thead>
+	<tfoot>
+	</tfoot>
+	<tbody>
+		<tr>
+			<th scope="row">Firefox 11.x</th>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Chrome 18.x</th>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Safari 5.x</th>
+			<td></td>
+			<td></td>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Internet Explorer 9</th>
+			<td></td>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Internet Explorer 8</th>
+			<td class="level-one"><a href="#grade-a-support">Grade A support</a></td>
+			<td class="level-two"><a href="#grade-b-support">Grade B support</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Internet Explorer 7</th>
+			<td class="level-two"><a href="#grade-b-support">Grade B support</a></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">iOS Safari</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="level-one"><a href="#grade-a-support">Grade B support</a></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Android webkit</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="level-one"><a href="#grade-a-support">Grade B support</a></td>
+		</tr>
+	</tbody>
+</table>
+
 ###Notes
 
-<a href="#" id="note-1">[1]</a> This section is for information only and should be removed. 
+<a id="note-1" href="#">[1]</a> This section is for information only and should be removed. 
 
 
 
