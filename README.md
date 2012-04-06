@@ -129,7 +129,19 @@ The graded browser matrix details browsers, operating systems and their support 
 	</tbody>
 </table>
 
+| Browser         |  Windows XP      |  Windows 7  | OS 10.7 | iOS 5.x | Android 2.x |
+|---------------- | ---------------- | ----------- | ------- | ------- | ----------- | 
+| Firefox 11.x    |  Grade A support |             |         |         |             |
+
+
+
 Although browser implementation variations are negligible between operating system, they are included as guidance for [quality assurance](#quality-assurance). [[3](#note-3)]
+
+###Feature definitions
+
+####Operating system
+
+
 
 ###Notes
 
