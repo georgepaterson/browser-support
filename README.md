@@ -48,91 +48,16 @@ Unsupported browsers will not be reviewed during development or quality assuranc
 
 The graded browser matrix details browsers, operating systems and their support level during the development process.
 
-<table>
-	<thead>
-		<tr>
-			<th scope="col">Browser</th>
-			<th scope="col">Windows XP</th>
-			<th scope="col">Windows 7</th>
-			<th scope="col">OS 10.7</th>
-			<th scope="col">iOS 5.x</th>
-			<th scope="col">Android 2.x</th>
-		</tr>
-	</thead>
-	<tfoot>
-	</tfoot>
-	<tbody>
-		<tr>
-			<th scope="row">Firefox 11.x</th>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Chrome 18.x</th>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Safari 5.x</th>
-			<td></td>
-			<td></td>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Internet Explorer 9</th>
-			<td></td>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Internet Explorer 8</th>
-			<td><a href="#grade-a-support">Grade A support</a></td>
-			<td><a href="#grade-b-support">Grade B support</a></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Internet Explorer 7</th>
-			<td><a href="#grade-b-support">Grade B support</a></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">iOS Safari</th>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td><a href="#grade-a-support">Grade B support</a></td>
-			<td></td>
-		</tr>
-		<tr>
-			<th scope="row">Android webkit</th>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td><a href="#grade-a-support">Grade B support</a></td>
-		</tr>
-	</tbody>
-</table>
-
-| Browser         |  Windows XP      |  Windows 7  | OS 10.7 | iOS 5.x | Android 2.x |
-|---------------- | ---------------- | ----------- | ------- | ------- | ----------- | 
-| Firefox 11.x    |  Grade A support |             |         |         |             |
-
+| Browser             |  Windows XP      |  Windows 7      | OS 10.7         | iOS 5.x         | Android 2.x     |
+|-------------------- | ---------------- | --------------- | --------------- | --------------- | ----------------| 
+| Firefox 11.x        |  Grade A support | Grade A support | Grade A support |                 |                 |
+| Chrome 18.x         |  Grade A support | Grade A support | Grade A support |                 |                 |
+| Safari 5.x          |                  |                 | Grade A support |                 |                 |
+| Internet Explorer 9 |                  | Grade A support |                 |                 |                 |
+| Internet Explorer 8 | Grade A support  | Grade B support |                 |                 |                 |
+| Internet Explorer 7 | Grade B support  |                 |                 |                 |                 |
+| iOS Safari          |                  |                 |                 | Grade A support |                 |
+| Android webkit      |                  |                 |                 |                 | Grade A support | 
 
 
 Although browser implementation variations are negligible between operating system, they are included as guidance for [quality assurance](#quality-assurance). [[3](#note-3)]
