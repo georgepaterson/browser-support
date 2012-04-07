@@ -56,8 +56,8 @@ The graded browser matrix details browsers, operating systems and their support 
 | Internet Explorer 9 |                  | Grade A support |                 |                 |                 |
 | Internet Explorer 8 | Grade A support  | Grade B support |                 |                 |                 |
 | Internet Explorer 7 | Grade B support  |                 |                 |                 |                 |
-| iOS Safari          |                  |                 |                 | Grade A support |                 |
-| Android webkit      |                  |                 |                 |                 | Grade A support | 
+| iOS Safari          |                  |                 |                 | Grade B support |                 |
+| Android webkit      |                  |                 |                 |                 | Grade B support | 
 
 
 Although browser implementation variations are negligible between operating system, they are included as guidance for [quality assurance](#quality-assurance). [[3](#note-3)]
