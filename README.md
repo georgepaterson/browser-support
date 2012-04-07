@@ -1,14 +1,14 @@
-## Browser support
+# Browser support
 
-### Purpose of this document
+## Purpose of this document
 
 This document is designed to provide a template for agreeing development deliverables with the client. It is structured to be a modular document where sections can be updated or removed depending on the requirements of the project. [[1](#note-1)]
 
-### Development approach
+## Development approach
 
 Our development approach is based on internationally recognised standards and best practice to create accessible, modular, scalable and performant code. By basing our approach on international standards we aim to develop an inclusive experience for all web users; where access to functionality and content is of primary importance and design is used to enhance that experience.
 
-### Understanding support
+## Understanding support
 
 Access to the Web is as diverse as it's users and in providing support we aim to make Web functionality and content as accessible as possible. Providing support is not about forcing the same visual and behavioural experience across different browsers, where different browsers may have varying capabilities and users may have different requirements. To force a specific experience will prevent users accessing functionality and content.
 
@@ -16,35 +16,35 @@ To identify the level of support we can provide a browser, we grade browsers by 
 
 Where requested we can also [analyse client data](#client-data) and identify specific [client requirements](#client-requirements) to modify the standard [graded browser matrix](#graded-browser-matrix).
 
-#### Analysis of client data
+### Analysis of client data
 
 Analysing client user data, through analytics software, we can create an interactive experience suited to specific user requirements. e.g. if the user base primarily uses modern browsers the designed experience can target advanced browser features.
 
 A cut off point for support is recommended at &lt; 2%. [[2](#note-2)]
 
-#### Client requirements
+### Client requirements
 
 We understand that the client may have specific requirements for interactive development. e.g. support of a specific browser that may otherwise be unsupported or the use of a particular technology that have implications for the development process. [[3](#note-3)]
 
-### Graded browser support
+## Graded browser support
 
-#### Grade A support
+### Grade A support
 
 Pages rendered in browsers with Grade A support will meet the functional specification, user interface specification and creative design. If a level one browser is incapable of meeting any of these criteria either the particular criteria will need to be altered to match the browser capability or the browser should be reduced to Grade B support.
 
-#### Grade B support
+### Grade B support
 
 Pages rendered in browsers with Grade B support will meet the functional specification. The majority of the user interface specification and creative design will be met dependent on the capability of the browser, if either criteria is a barrier to meeting the functional specification, the functional specification will take priority.
 
-#### Grade C support
+### Grade C support
 
 Pages rendered in browsers with Grade C support will meet the functional specification. The user interface specification and creative design will be used as guidance, meeting the functional specification and making content available takes priority.
 
-#### Unsupported
+### Unsupported
 
 Unsupported browsers will not be reviewed during development or quality assurance.
 
-### Graded browser matrix
+## Graded browser matrix
 
 The graded browser matrix details browsers, operating systems and their support level during the development process.
 
@@ -62,47 +62,47 @@ The graded browser matrix details browsers, operating systems and their support 
 
 Although browser implementation variations are negligible between operating system, they are included as guidance for [quality assurance](#quality-assurance). [[3](#note-3)]
 
-### Feature definitions
+## Feature definitions
 
-#### Operating system
+### Operating system
 
 Testing of particular operating systems will be against the latest non-beta minor version. [[4](#note-4)]
 
-#### Operating system rendered elements
+### Operating system rendered elements
 
 HTML form elements are commonly rendered by the operating system rather than the browser for security reasons. As they are rendered by the operating system, CSS does not have full control of the element's styling. HTML elements rendered by the operating system are expected to deviate from the design due to this limitation.
 
 CSS styling is the preferred method to allow the HTML element to benefit for operating system integration. If HTML elements rendered by the operating system are required to exactly match the design a JavaScript replacement of the element may be developed. [[5](#note-5)]
 
-#### Browser version
+### Browser version
 
 Browser testing will be against the latest non-beta minor version. The version supported will be the version current [quality assurance](#quality-assurance). [[6](#note-6)]
 
-#### Internet Explorer Compatibility Mode
+### Internet Explorer Compatibility Mode
 
 Internet Explorer Compatibility Mode will not be specifically tested and development will force Internet Explorer to render in the latest browser version of the tested browser. [[7](#note-7)]
 
-#### Pre-release browsers
+### Pre-release browsers
 
 Pre-release browsers may be developed for at the request of the client but development is only valid for the agreed version of pre-release browser. Although an indicator of support for the released browser version it is not a guarantee of support. Further development and quality assurance testing will be required. [[8](#note-8)]
 
-#### JavaScript support
+### JavaScript support
 
 A non-JavaScript experience will be supported and tested as part of the development. The specific experience is reliant on exploration by information architecture and visual design, if no exploration is made available to development, the non-JavaScript experience will gracefully degrade to the functional specification. [[9](#note-9)]
 
-#### Flash version
+### Flash version
 
 Testing of Flash will be against the latest non-beta minor version. [[10](#note-10)]
 
-#### Silverlight version
+### Silverlight version
 
 Testing of Silverlight will be against the latest non-beta minor version. [[11](#note-11)]
 
-### Quality management
+## Quality management
 
 Managing project quality is important part of our development approach. We achieve this through [quality control](#quality-control) using recognised standards, best practice and [quality assurance](#quality-assurance) through dedicated testing.
 
-#### Quality control
+### Quality control
 
 We apply quality gates to our development by both automated and manually validating against international standards and best practice. These standards include:
 
@@ -113,7 +113,7 @@ We apply quality gates to our development by both automated and manually validat
 
 Automated testing in achieved through continuous integration during the development. Manual testing is achieved by peer review between developers during development and as a formal process with senior developers. Manual testing ensures that the spirit of the standards are met.
 
-#### Quality assurance
+### Quality assurance
 
 Quality assurance is achieved through the visual design and quality assurance teams. [[12](#note-12)]
 
@@ -144,7 +144,7 @@ After primary testing has met it's success criteria, secondary testing is engage
 | iOS Safari          |  iOS 5.x          |
 | Android webkit      |  Android 2.x      |
 
-#### Support review process
+## Support review process
 
 Long term developments require a regular support review to maintain an updated and relevant browser capability.
 
@@ -152,15 +152,17 @@ Browser support should be reviewed at regular intervals. Interval length is depe
 
 Changes to support will require an estimation of effort to manage implementation.
 
-#### Browser review
+### Browser review
 
 Supported browsers will be reviewed based on current site data and expected browser usage at the end of the project.
 
-#### JavaScript review
+### JavaScript review
 
 JavaScript library, framework or plugin version will also be assessed and updated during the review process. It is recommended versions remain current for performance and security.
 
-### Notes
+## Notes
+
+Notes are for information only and should be removed.
 
 1. This section is for information only and should be removed. <a name="note-1" />  
 2. Specific requirements should be agreed to and documented before development begins. <a name="note-2" />  
