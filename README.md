@@ -16,27 +16,27 @@ To identify the level of support we can provide a browser, we grade browsers by 
 
 Where requested we can also [analyse client data](#client-data) and identify specific [client requirements](#client-requirements) to modify the standard [graded browser matrix](#graded-browser-matrix).
 
-### Analysis of client data
+### Analysis of client data <a name="client-data" />
 
 Analysing client user data, through analytics software, we can create an interactive experience suited to specific user requirements. e.g. if the user base primarily uses modern browsers the designed experience can target advanced browser features.
 
 A cut off point for support is recommended at &lt; 2%. [[2](#note-2)]
 
-### Client requirements
+### Client requirements <a name="client-requirements" />
 
 We understand that the client may have specific requirements for interactive development. e.g. support of a specific browser that may otherwise be unsupported or the use of a particular technology that have implications for the development process. [[3](#note-3)]
 
 ## Graded browser support
 
-### Grade A support
+### Grade A support <a name="grade-a-support" />
 
 Pages rendered in browsers with Grade A support will meet the functional specification, user interface specification and creative design. If a level one browser is incapable of meeting any of these criteria either the particular criteria will need to be altered to match the browser capability or the browser should be reduced to Grade B support.
 
-### Grade B support
+### Grade B support <a name="grade-b-support" />
 
 Pages rendered in browsers with Grade B support will meet the functional specification. The majority of the user interface specification and creative design will be met dependent on the capability of the browser, if either criteria is a barrier to meeting the functional specification, the functional specification will take priority.
 
-### Grade C support
+### Grade C support <a name="grade-c-support" />
 
 Pages rendered in browsers with Grade C support will meet the functional specification. The user interface specification and creative design will be used as guidance, meeting the functional specification and making content available takes priority.
 
@@ -48,17 +48,20 @@ Unsupported browsers will not be reviewed during development or quality assuranc
 
 The graded browser matrix details browsers, operating systems and their support level during the development process.
 
-| Browser             |  Windows XP      |  Windows 7      | OS 10.7         | iOS 5.x         | Android 2.x     |
-|-------------------- | ---------------- | --------------- | --------------- | --------------- | ----------------| 
-| Firefox 11.x        |  Grade A support | Grade A support | Grade A support |                 |                 |
-| Chrome 18.x         |  Grade A support | Grade A support | Grade A support |                 |                 |
-| Safari 5.x          |                  |                 | Grade A support |                 |                 |
-| Internet Explorer 9 |                  | Grade A support |                 |                 |                 |
-| Internet Explorer 8 | Grade A support  | Grade B support |                 |                 |                 |
-| Internet Explorer 7 | Grade B support  |                 |                 |                 |                 |
-| iOS Safari          |                  |                 |                 | Grade B support |                 |
-| Android webkit      |                  |                 |                 |                 | Grade B support | 
+| Browser             |  Windows XP           |  Windows 7           | OS 10.7              | iOS 5.x              | Android 2.x          |
+|-------------------- | --------------------- | -------------------- | -------------------- | -------------------- | ---------------------| 
+| Firefox 11.x        | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
+| Chrome 18.x         | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
+| Safari 5.x          |                       |                      | [Grade A support][a] |                      |                      |
+| Internet Explorer 9 |                       | [Grade A support][a] |                      |                      |                      |
+| Internet Explorer 8 | [Grade A support][a]  | [Grade B support][b] |                      |                      |                      |
+| Internet Explorer 7 | [Grade B support][b]  |                      |                      |                      |                      |
+| iOS Safari          |                       |                      |                      | [Grade B support][b] |                      |
+| Android webkit      |                       |                      |                      |                      | [Grade B support][b] |
 
+[a]: #grade-a-support
+[b]: #grade-b-support
+[c]: #grade-c-support
 
 Although browser implementation variations are negligible between operating system, they are included as guidance for [quality assurance](#quality-assurance). [[3](#note-3)]
 
@@ -121,7 +124,7 @@ Testing is undertaken on each supported browser version with a native install of
 
 Since the same browser is expected to provide the same experience between equivalent operating systems to streamline the testing process, testing is split in to primary and secondary phases.
 
-Primary testing is engaged in during development to ensure [Grade A support](#grade-a-support) is achieved for that browser on an equivalent operating system.
+Primary testing is engaged in during development to ensure [Grade A support][a] is achieved for that browser on an equivalent operating system.
 
 | Browser             |  Operating system |
 |-------------------- | ----------------- |
@@ -133,7 +136,7 @@ Primary testing is engaged in during development to ensure [Grade A support](#gr
 | Internet Explorer 9 |  Windows 7        |
 | Internet Explorer 8 |  Windows XP       |
 
-After primary testing has met it's success criteria, secondary testing is engaged for equivalent operating systems at [Grade A support](#grade-a-support) plus [Grade B support](#grade-b-support) and [Grade C support](#grade-c-support) supported browsers.
+After primary testing has met it's success criteria, secondary testing is engaged for equivalent operating systems at [Grade A support][a] plus [Grade B support][b] and [Grade C support][c] supported browsers.
 
 | Browser             |  Operating system |
 |-------------------- | ----------------- |
@@ -176,9 +179,3 @@ Notes are for information only and should be removed.
 10. If required, version to be agreed to and documented before development begins. If there is no Flash development as part of the project then Flash should be declared as unsupported. <a name="note-10" />
 11. If required, version to be agreed to and documented before development begins. If there is no Silverlight development as part of the project then Silverlight should be declared as unsupported. <a name="note-11" />
 12. A dedicated quality assurance team should be provided to review implementation. The visual design team responsible for the design should provide secondary testing. <a name="note-12" /> 
-
-
-
-
-
-
