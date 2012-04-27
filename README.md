@@ -50,7 +50,7 @@ The graded browser matrix details browsers, operating systems and their support 
 
 | Browser             |  Windows XP           |  Windows 7           | OS 10.7              | iOS 5.x              | Android 2.x          |
 |-------------------- | --------------------- | -------------------- | -------------------- | -------------------- | ---------------------| 
-| Firefox 11.x        | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
+| Firefox 12.x        | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
 | Chrome 18.x         | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
 | Safari 5.x          |                       |                      | [Grade A support][a] |                      |                      |
 | Internet Explorer 9 |                       | [Grade A support][a] |                      |                      |                      |
@@ -128,8 +128,8 @@ Primary testing is engaged in during development to ensure [Grade A support][a] 
 
 | Browser             |  Operating system |
 |-------------------- | ----------------- |
-| Firefox 11.x        |  Windows 7        |
-| Firefox 11.x        |  OS 10.7          |
+| Firefox 12.x        |  Windows 7        |
+| Firefox 12.x        |  OS 10.7          |
 | Chrome 18.x         |  Windows 7        |
 | Chrome 18.x         |  OS 10.7          |
 | Safari 5.x          |  OS 10.7          |
@@ -140,7 +140,7 @@ After primary testing has met it's success criteria, secondary testing is engage
 
 | Browser             |  Operating system |
 |-------------------- | ----------------- |
-| Firefox 11.x        |  Windows XP       |
+| Firefox 12.x        |  Windows XP       |
 | Chrome 18.x         |  Windows XP       |
 | Internet Explorer 9 |  Windows XP       |
 | Internet Explorer 8 |  Windows 7        |
