@@ -54,8 +54,7 @@ The graded browser matrix details browsers, operating systems and their support 
 | Chrome 18.x         | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
 | Safari 5.x          |                       |                      | [Grade A support][a] |                      |                      |
 | Internet Explorer 9 |                       | [Grade A support][a] |                      |                      |                      |
-| Internet Explorer 8 | [Grade A support][a]  | [Grade B support][b] |                      |                      |                      |
-| Internet Explorer 7 | [Grade B support][b]  |                      |                      |                      |                      |
+| Internet Explorer 8 | [Grade A support][a]  | [Grade A support][a] |                      |                      |                      |
 | iOS Safari          |                       |                      |                      | [Grade B support][b] |                      |
 | Android webkit      |                       |                      |                      |                      | [Grade B support][b] |
 
@@ -142,7 +141,6 @@ After primary testing has met it's success criteria, secondary testing is engage
 |-------------------- | ----------------- |
 | Firefox 12.x        |  Windows XP       |
 | Chrome 18.x         |  Windows XP       |
-| Internet Explorer 9 |  Windows XP       |
 | Internet Explorer 8 |  Windows 7        |
 | iOS Safari          |  iOS 5.x          |
 | Android webkit      |  Android 2.x      |
