@@ -1,5 +1,9 @@
 # Browser support
 
+| Test           | Data          |
+|----------------|---------------| 
+| Markdown table | Not rendering |
+
 ## Purpose of this document
 
 This document is designed to provide a template for agreeing development deliverables with the client. It is structured to be a modular document where sections can be updated or removed depending on the requirements of the project. [[1](#note-1)]
@@ -162,12 +166,6 @@ Supported browsers will be reviewed based on current site data and expected brow
 JavaScript library, framework or plugin version will also be assessed and updated during the review process. It is recommended versions remain current for performance and security.
 
 ## Notes
-
-| Test           | Data          |
-|----------------|---------------| 
-| Markdown table | Not rendering |
-
-
 
 Notes are for information only and should be removed.
 
