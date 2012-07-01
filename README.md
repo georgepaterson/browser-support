@@ -48,19 +48,30 @@ Unsupported browsers will not be reviewed during development or quality assuranc
 
 The graded browser matrix details browsers, operating systems and their support level during the development process.
 
-| Browser             |  Windows XP           |  Windows 7           | OS 10.7              | iOS 5.x              | Android 2.x          |
-|---------------------|-----------------------|----------------------|----------------------|----------------------|----------------------| 
-| Firefox 13.x        | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
-| Chrome 20.x         | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
-| Safari 5.1.x          |                       |                    | [Grade A support][a] |                      |                      |
-| Internet Explorer 9 |                       | [Grade A support][a] |                      |                      |                      |
-| Internet Explorer 8 | [Grade A support][a]  | [Grade A support][a] |                      |                      |                      |
-| iOS Safari          |                       |                      |                      | [Grade B support][b] |                      |
-| Android webkit      |                       |                      |                      |                      | [Grade B support][b] |
+### Grade A
 
-[a]: #grade-a-support
-[b]: #grade-b-support
-[c]: #grade-c-support
+* Firefox 13
+	* Windows XP
+	* Windows 7
+	* OS 10.7
+* Chrome 
+	* Windows XP
+	* Windows 7
+	* OS 10.7
+* Safari 5.1.x
+	* OS 10.7
+* Internet Explorer 9
+	* Windows 7
+* Internet Explorer 8
+	* Windows XP
+	* Windows 7
+	
+### Grade B
+
+* iOS Safari
+	* iOS 5.x
+* Android webkit
+	* Android 2.x
 
 Although browser implementation variations are negligible between operating system, they are included as guidance for [quality assurance](#quality-assurance). [[3](#note-3)]
 
@@ -131,7 +142,7 @@ Primary testing is engaged in during development to ensure [Grade A support][a] 
 | Firefox 13.x        |  OS 10.7          |
 | Chrome 20.x         |  Windows 7        |
 | Chrome 20.x         |  OS 10.7          |
-| Safari 5.1.x          |  OS 10.7          |
+| Safari 5.1.x        |  OS 10.7          |
 | Internet Explorer 9 |  Windows 7        |
 | Internet Explorer 8 |  Windows XP       |
 
