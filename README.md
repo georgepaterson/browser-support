@@ -49,7 +49,7 @@ Unsupported browsers will not be reviewed during development or quality assuranc
 The graded browser matrix details browsers, operating systems and their support level during the development process.
 
 | Browser             |  Windows XP           |  Windows 7           | OS 10.7              | iOS 5.x              | Android 2.x          |
-|-------------------- | --------------------- | -------------------- | -------------------- | -------------------- | ---------------------| 
+|---------------------|-----------------------|----------------------|----------------------|----------------------|----------------------| 
 | Firefox 12.x        | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
 | Chrome 18.x         | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
 | Safari 5.x          |                       |                      | [Grade A support][a] |                      |                      |
@@ -162,6 +162,12 @@ Supported browsers will be reviewed based on current site data and expected brow
 JavaScript library, framework or plugin version will also be assessed and updated during the review process. It is recommended versions remain current for performance and security.
 
 ## Notes
+
+| Test           | Data          |
+|----------------|---------------| 
+| Markdown table | Not rendering |
+
+
 
 Notes are for information only and should be removed.
 
