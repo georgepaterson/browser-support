@@ -1,9 +1,5 @@
 # Browser support
 
-| Test           | Data          |
-|----------------|---------------| 
-| Markdown table | Not rendering |
-
 ## Purpose of this document
 
 This document is designed to provide a template for agreeing development deliverables with the client. It is structured to be a modular document where sections can be updated or removed depending on the requirements of the project. [[1](#note-1)]
@@ -52,15 +48,76 @@ Unsupported browsers will not be reviewed during development or quality assuranc
 
 The graded browser matrix details browsers, operating systems and their support level during the development process.
 
-| Browser             |  Windows XP           |  Windows 7           | OS 10.7              | iOS 5.x              | Android 2.x          |
-|---------------------|-----------------------|----------------------|----------------------|----------------------|----------------------| 
-| Firefox 12.x        | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
-| Chrome 18.x         | [Grade A support][a]  | [Grade A support][a] | [Grade A support][a] |                      |                      |
-| Safari 5.x          |                       |                      | [Grade A support][a] |                      |                      |
-| Internet Explorer 9 |                       | [Grade A support][a] |                      |                      |                      |
-| Internet Explorer 8 | [Grade A support][a]  | [Grade A support][a] |                      |                      |                      |
-| iOS Safari          |                       |                      |                      | [Grade B support][b] |                      |
-| Android webkit      |                       |                      |                      |                      | [Grade B support][b] |
+<table>
+	<thead>
+		<tr>
+			<th scope="col">Browser</th>
+			<th scope="col">Windows XP </th>
+			<th scope="col">Windows 7</th>
+			<th scope="col">OS 10.7</th>
+			<th scope="col">iOS 5.x</th>
+			<th scope="col">Android 2.x</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Firefox 13.x</th>
+			<td>[Grade A support][a]</td>
+			<td>[Grade A support][a]</td>
+			<td>[Grade A support][a]</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Chrome 20.x</th>
+			<td>[Grade A support][a]</td>
+			<td>[Grade A support][a]</td>
+			<td>[Grade A support][a]</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Safari 5.1.x</th>
+			<td></td>
+			<td></td>
+			<td>[Grade A support][a]</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Internet Explorer 9</th>
+			<td></td>
+			<td>[Grade A support][a]</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Internet Explorer 8</th>
+			<td>[Grade A support][a]</td>
+			<td>[Grade A support][a]</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">iOS Safari</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>[Grade B support][b]</td>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row">Android webkit</th>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>[Grade B support][b]</td>
+		</tr>
+	</tbody>
+</table>
 
 [a]: #grade-a-support
 [b]: #grade-b-support
