@@ -136,25 +136,33 @@ Since the same browser is expected to provide the same experience between equiva
 
 Primary testing is engaged in during development to ensure [Grade A support][a] is achieved for that browser on an equivalent operating system.
 
-| Browser             |  Operating system |
-|-------------------- |------------------ |
-| Firefox 13.x        |  Windows 7        |
-| Firefox 13.x        |  OS 10.7          |
-| Chrome 20.x         |  Windows 7        |
-| Chrome 20.x         |  OS 10.7          |
-| Safari 5.1.x        |  OS 10.7          |
-| Internet Explorer 9 |  Windows 7        |
-| Internet Explorer 8 |  Windows XP       |
+* Firefox 13
+	* Windows 7
+	* OS 10.7
+* Chrome
+	* Windows 7
+	* OS 10.7
+* Safari 5.1.x
+	* OS 10.7
+* Internet Explorer 9
+	* Windows 7
+* Internet Explorer 8
+	* Windows XP
 
 After primary testing has met it's success criteria, secondary testing is engaged for equivalent operating systems at [Grade A support][a] plus [Grade B support][b] and [Grade C support][c] supported browsers.
 
-| Browser             |  Operating system |
-|-------------------- |------------------ |
-| Firefox 13.x        |  Windows XP       |
-| Chrome 20.x         |  Windows XP       |
-| Internet Explorer 8 |  Windows 7        |
-| iOS Safari          |  iOS 5.x          |
-| Android webkit      |  Android 2.x      |
+* Firefox 13
+	* Windows XP
+* Chrome 
+	* Windows XP
+* Safari 5.1.x
+	* OS 10.7
+* Internet Explorer 8
+	* Windows 7	
+* iOS Safari
+	* iOS 5.x
+* Android webkit
+	* Android 2.x
 
 ## Support review process
 
