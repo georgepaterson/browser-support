@@ -50,11 +50,11 @@ The graded browser matrix details browsers, operating systems and their support 
 
 ### Grade A
 
-* Firefox 13
+* Firefox 15
 	* Windows XP
 	* Windows 7
 	* OS 10.7
-* Chrome 
+* Chrome 21 
 	* Windows XP
 	* Windows 7
 	* OS 10.7
@@ -136,10 +136,10 @@ Since the same browser is expected to provide the same experience between equiva
 
 Primary testing is engaged in during development to ensure [Grade A support][a] is achieved for that browser on an equivalent operating system.
 
-* Firefox 13
+* Firefox 15
 	* Windows 7
 	* OS 10.7
-* Chrome
+* Chrome 21
 	* Windows 7
 	* OS 10.7
 * Safari 5.1.x
@@ -151,9 +151,9 @@ Primary testing is engaged in during development to ensure [Grade A support][a] 
 
 After primary testing has met it's success criteria, secondary testing is engaged for equivalent operating systems at [Grade A support][a] plus [Grade B support][b] and [Grade C support][c] supported browsers.
 
-* Firefox 13
+* Firefox 15
 	* Windows XP
-* Chrome 
+* Chrome 21
 	* Windows XP
 * Safari 5.1.x
 	* OS 10.7
