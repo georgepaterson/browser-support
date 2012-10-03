@@ -120,7 +120,7 @@ Managing project quality is important part of our development approach. We achie
 We apply quality gates to our development by both automated and manually validating against international standards and best practice. These standards include:
 
 * [HTML validation](http://validator.w3.org/)
-* [CSS coding conventions](http://jigsaw.w3.org/css-validator/)
+* [CSS coding conventions](http://csslint.net/)
 * [JavaScript coding conventions](http://www.jshint.com/)
 * [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG/)
 
