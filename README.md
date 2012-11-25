@@ -134,7 +134,7 @@ Testing is undertaken on each supported browser version with a native install of
 
 Since the same browser is expected to provide the same experience between equivalent operating systems to streamline the testing process, testing is split in to primary and secondary phases.
 
-Primary testing is engaged in during development to ensure [Grade A support][a] is achieved for that browser on an equivalent operating system.
+Primary testing is engaged in during development to ensure [Grade A support](#grade-a-support) is achieved for that browser on an equivalent operating system.
 
 * Firefox 15
 	* Windows 7
