@@ -130,37 +130,37 @@ Automated testing in achieved through continuous integration during the developm
 
 Quality assurance is achieved through the visual design and quality assurance teams. [[12](#note-12)]
 
-Testing is undertaken on each supported browser version with a native install of the specified operating system.
+Testing is undertaken on each supported browser version with a native install of the specified operating system. [[13](#note-13)]
 
 Since the same browser is expected to provide the same experience between equivalent operating systems to streamline the testing process, testing is split in to primary and secondary phases.
 
 Primary testing is engaged in during development to ensure [Grade A support](#grade-a-support) is achieved for that browser on an equivalent operating system.
 
-* Firefox 15
+* Firefox 17
 	* Windows 7
 	* OS 10.7
-* Chrome 21
+* Chrome 23
 	* Windows 7
 	* OS 10.7
-* Safari 5.1.x
+* Safari 6.0
 	* OS 10.7
 * Internet Explorer 9
 	* Windows 7
 * Internet Explorer 8
 	* Windows XP
 
-After primary testing has met it's success criteria, secondary testing is engaged for equivalent operating systems at [Grade A support][a] plus [Grade B support][b] and [Grade C support][c] supported browsers.
+After primary testing has met it's success criteria, secondary testing is engaged for equivalent operating systems at [Grade A support](#grade-a-support) plus [Grade B support](#grade-b-support) and [Grade C support](#grade-c-support) supported browsers.
 
-* Firefox 15
+* Firefox 17
 	* Windows XP
-* Chrome 21
+* Chrome 23
 	* Windows XP
-* Safari 5.1.x
+* Safari 6.0
 	* OS 10.7
 * Internet Explorer 8
 	* Windows 7	
 * iOS Safari
-	* iOS 5.x
+	* iOS 6.x
 * Android webkit
 	* Android 2.x
 
@@ -195,4 +195,5 @@ Notes are for information only and should be removed.
 9. If a non-JavaScript experience is unsupported this should be agreed to and documented before development begins. <a name="note-9" />
 10. If required, version to be agreed to and documented before development begins. If there is no Flash development as part of the project then Flash should be declared as unsupported. <a name="note-10" />
 11. If required, version to be agreed to and documented before development begins. If there is no Silverlight development as part of the project then Silverlight should be declared as unsupported. <a name="note-11" />
-12. A dedicated quality assurance team should be provided to review implementation. The visual design team responsible for the design should provide secondary testing. <a name="note-12" /> 
+12. A dedicated quality assurance team should be provided to review implementation. The visual design team responsible for the design should provide secondary testing. <a name="note-12" />
+12. It is expected that browsers such as Chrome and Firefox will use that latest version. However for a release cycle an identified browser version is required. <a name="note-13" /> 
