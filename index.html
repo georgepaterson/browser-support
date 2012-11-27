@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Browser support by georgepaterson</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Browser support</h1>
+        <p>Documenting browser support for UI development.</p>
+
+        <p class="view"><a href="https://github.com/georgepaterson/browser-support">View the Project on GitHub <small>georgepaterson/browser-support</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/georgepaterson/browser-support/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/georgepaterson/browser-support/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/georgepaterson/browser-support">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Browser support</h1>
+
+<h2>Purpose of this document</h2>
+
+<p>This document is designed to provide a template for agreeing development deliverables with the client. It is structured to be a modular document where sections can be updated or removed depending on the requirements of the project. [<a href="#note-1">1</a>]</p>
+
+<h2>Development approach</h2>
+
+<p>Our development approach is based on internationally recognised standards and best practice to create accessible, modular, scalable and performant code. By basing our approach on international standards we aim to develop an inclusive experience for all web users; where access to functionality and content is of primary importance and design is used to enhance that experience.</p>
+
+<h2>Understanding support</h2>
+
+<p>Access to the Web is as diverse as it's users and in providing support we aim to make Web functionality and content as accessible as possible. Providing support is not about forcing the same visual and behavioural experience across different browsers, where different browsers may have varying capabilities and users may have different requirements. To force a specific experience will prevent users accessing functionality and content.</p>
+
+<p>To identify the level of support we can provide a browser, we grade browsers by the experience they are capable of providing the user.</p>
+
+<p>Where requested we can also <a href="#client-data">analyse client data</a> and identify specific <a href="#client-requirements">client requirements</a> to modify the standard <a href="#graded-browser-matrix">graded browser matrix</a>.</p>
+
+<h3>Analysis of client data <a name="client-data"></a>
+</h3>
+
+<p>Analysing client user data, through analytics software, we can create an interactive experience suited to specific user requirements. e.g. if the user base primarily uses modern browsers the designed experience can target advanced browser features.</p>
+
+<p>A cut off point for support is recommended at &lt; 2%. [<a href="#note-2">2</a>]</p>
+
+<h3>Client requirements <a name="client-requirements"></a>
+</h3>
+
+<p>We understand that the client may have specific requirements for interactive development. e.g. support of a specific browser that may otherwise be unsupported or the use of a particular technology that have implications for the development process. [<a href="#note-3">3</a>]</p>
+
+<h2>Graded browser support</h2>
+
+<h3>Grade A support <a name="grade-a-support"></a>
+</h3>
+
+<p>Pages rendered in browsers with Grade A support will meet the functional specification, user interface specification and creative design. If a level one browser is incapable of meeting any of these criteria either the particular criteria will need to be altered to match the browser capability or the browser should be reduced to Grade B support.</p>
+
+<h3>Grade B support <a name="grade-b-support"></a>
+</h3>
+
+<p>Pages rendered in browsers with Grade B support will meet the functional specification. The majority of the user interface specification and creative design will be met dependent on the capability of the browser, if either criteria is a barrier to meeting the functional specification, the functional specification will take priority.</p>
+
+<h3>Grade C support <a name="grade-c-support"></a>
+</h3>
+
+<p>Pages rendered in browsers with Grade C support will meet the functional specification. The user interface specification and creative design will be used as guidance, meeting the functional specification and making content available takes priority.</p>
+
+<h3>Unsupported</h3>
+
+<p>Unsupported browsers will not be reviewed during development or quality assurance.</p>
+
+<h2>Graded browser matrix</h2>
+
+<p>The graded browser matrix details browsers, operating systems and their support level during the development process.</p>
+
+<h3>Grade A</h3>
+
+<ul>
+<li>Firefox 15
+
+<ul>
+<li>Windows XP</li>
+<li>Windows 7</li>
+<li>OS 10.7</li>
+</ul>
+</li>
+<li>Chrome 21 
+
+<ul>
+<li>Windows XP</li>
+<li>Windows 7</li>
+<li>OS 10.7</li>
+</ul>
+</li>
+<li>Safari 5.1.x
+
+<ul>
+<li>OS 10.7</li>
+</ul>
+</li>
+<li>Internet Explorer 9
+
+<ul>
+<li>Windows 7</li>
+</ul>
+</li>
+<li>Internet Explorer 8
+
+<ul>
+<li>Windows XP</li>
+<li>Windows 7</li>
+</ul>
+</li>
+</ul><h3>Grade B</h3>
+
+<ul>
+<li>iOS Safari
+
+<ul>
+<li>iOS 5.x</li>
+</ul>
+</li>
+<li>Android webkit
+
+<ul>
+<li>Android 2.x</li>
+</ul>
+</li>
+</ul><p>Although browser implementation variations are negligible between operating system, they are included as guidance for <a href="#quality-assurance">quality assurance</a>. [<a href="#note-3">3</a>]</p>
+
+<h2>Feature definitions</h2>
+
+<h3>Operating system</h3>
+
+<p>Testing of particular operating systems will be against the latest non-beta minor version. [<a href="#note-4">4</a>]</p>
+
+<h3>Operating system rendered elements</h3>
+
+<p>HTML form elements are commonly rendered by the operating system rather than the browser for security reasons. As they are rendered by the operating system, CSS does not have full control of the element's styling. HTML elements rendered by the operating system are expected to deviate from the design due to this limitation.</p>
+
+<p>CSS styling is the preferred method to allow the HTML element to benefit for operating system integration. If HTML elements rendered by the operating system are required to exactly match the design a JavaScript replacement of the element may be developed. [<a href="#note-5">5</a>]</p>
+
+<h3>Browser version</h3>
+
+<p>Browser testing will be against the latest non-beta minor version. The version supported will be the version current <a href="#quality-assurance">quality assurance</a>. [<a href="#note-6">6</a>]</p>
+
+<h3>Internet Explorer Compatibility Mode</h3>
+
+<p>Internet Explorer Compatibility Mode will not be specifically tested and development will force Internet Explorer to render in the latest browser version of the tested browser. [<a href="#note-7">7</a>]</p>
+
+<h3>Pre-release browsers</h3>
+
+<p>Pre-release browsers may be developed for at the request of the client but development is only valid for the agreed version of pre-release browser. Although an indicator of support for the released browser version it is not a guarantee of support. Further development and quality assurance testing will be required. [<a href="#note-8">8</a>]</p>
+
+<h3>JavaScript support</h3>
+
+<p>A non-JavaScript experience will be supported and tested as part of the development. The specific experience is reliant on exploration by information architecture and visual design, if no exploration is made available to development, the non-JavaScript experience will gracefully degrade to the functional specification. [<a href="#note-9">9</a>]</p>
+
+<h3>Flash version</h3>
+
+<p>Testing of Flash will be against the latest non-beta minor version. [<a href="#note-10">10</a>]</p>
+
+<h3>Silverlight version</h3>
+
+<p>Testing of Silverlight will be against the latest non-beta minor version. [<a href="#note-11">11</a>]</p>
+
+<h2>Quality management</h2>
+
+<p>Managing project quality is important part of our development approach. We achieve this through <a href="#quality-control">quality control</a> using recognised standards, best practice and <a href="#quality-assurance">quality assurance</a> through dedicated testing.</p>
+
+<h3>Quality control</h3>
+
+<p>We apply quality gates to our development by both automated and manually validating against international standards and best practice. These standards include:</p>
+
+<ul>
+<li><a href="http://validator.w3.org/">HTML validation</a></li>
+<li><a href="http://csslint.net/">CSS coding conventions</a></li>
+<li><a href="http://www.jshint.com/">JavaScript coding conventions</a></li>
+<li><a href="http://www.w3.org/TR/WCAG/">Web Content Accessibility Guidelines (WCAG) 2.0</a></li>
+</ul><p>Automated testing in achieved through continuous integration during the development. Manual testing is achieved by peer review between developers during development and as a formal process with senior developers. Manual testing ensures that the spirit of the standards are met.</p>
+
+<h3>Quality assurance</h3>
+
+<p>Quality assurance is achieved through the visual design and quality assurance teams. [<a href="#note-12">12</a>]</p>
+
+<p>Testing is undertaken on each supported browser version with a native install of the specified operating system. [<a href="#note-13">13</a>]</p>
+
+<p>Since the same browser is expected to provide the same experience between equivalent operating systems to streamline the testing process, testing is split in to primary and secondary phases.</p>
+
+<p>Primary testing is engaged in during development to ensure <a href="#grade-a-support">Grade A support</a> is achieved for that browser on an equivalent operating system.</p>
+
+<ul>
+<li>Firefox 17
+
+<ul>
+<li>Windows 7</li>
+<li>OS 10.7</li>
+</ul>
+</li>
+<li>Chrome 23
+
+<ul>
+<li>Windows 7</li>
+<li>OS 10.7</li>
+</ul>
+</li>
+<li>Safari 6.0
+
+<ul>
+<li>OS 10.7</li>
+</ul>
+</li>
+<li>Internet Explorer 9
+
+<ul>
+<li>Windows 7</li>
+</ul>
+</li>
+<li>Internet Explorer 8
+
+<ul>
+<li>Windows XP</li>
+</ul>
+</li>
+</ul><p>After primary testing has met it's success criteria, secondary testing is engaged for equivalent operating systems at <a href="#grade-a-support">Grade A support</a> plus <a href="#grade-b-support">Grade B support</a> and <a href="#grade-c-support">Grade C support</a> supported browsers.</p>
+
+<ul>
+<li>Firefox 17
+
+<ul>
+<li>Windows XP</li>
+</ul>
+</li>
+<li>Chrome 23
+
+<ul>
+<li>Windows XP</li>
+</ul>
+</li>
+<li>Safari 6.0
+
+<ul>
+<li>OS 10.7</li>
+</ul>
+</li>
+<li>Internet Explorer 8
+
+<ul>
+<li>Windows 7 </li>
+</ul>
+</li>
+<li>iOS Safari
+
+<ul>
+<li>iOS 6.x</li>
+</ul>
+</li>
+<li>Android webkit
+
+<ul>
+<li>Android 2.x</li>
+</ul>
+</li>
+</ul><h2>Support review process</h2>
+
+<p>Long term developments require a regular support review to maintain an updated and relevant browser capability.</p>
+
+<p>Browser support should be reviewed at regular intervals. Interval length is dependent on project life cycle but should be agreed to as part of the support review process.</p>
+
+<p>Changes to support will require an estimation of effort to manage implementation.</p>
+
+<h3>Browser review</h3>
+
+<p>Supported browsers will be reviewed based on current site data and expected browser usage at the end of the project.</p>
+
+<h3>JavaScript review</h3>
+
+<p>JavaScript library, framework or plugin version will also be assessed and updated during the review process. It is recommended versions remain current for performance and security.</p>
+
+<h2>Notes</h2>
+
+<p>Notes are for information only and should be removed.</p>
+
+<ol>
+<li>This section is for information only and should be removed. <a name="note-1"></a><br>
+</li>
+<li>Specific requirements should be agreed to and documented before development begins. <a name="note-2"></a><br>
+</li>
+<li>Browsers and operating systems not outlined in the matrix may be included by agreement with the client. <a name="note-3"></a><br>
+</li>
+<li>If a particular operating system or version is required it should be agreed to and documented before development begins. <a name="note-4"></a>
+</li>
+<li>This should be agreed to with the client and visual design then documented before development begins. <a name="note-5"></a>
+</li>
+<li>If a specific version is requested it should be agreed to and documented before development begins. <a name="note-6"></a>
+</li>
+<li>A change to this policy will need to be specifically requested by the client. <a name="note-7"></a>
+</li>
+<li>Pre-release version to be agreed to and documented before development begins. <a name="note-8"></a>
+</li>
+<li>If a non-JavaScript experience is unsupported this should be agreed to and documented before development begins. <a name="note-9"></a>
+</li>
+<li>If required, version to be agreed to and documented before development begins. If there is no Flash development as part of the project then Flash should be declared as unsupported. <a name="note-10"></a>
+</li>
+<li>If required, version to be agreed to and documented before development begins. If there is no Silverlight development as part of the project then Silverlight should be declared as unsupported. <a name="note-11"></a>
+</li>
+<li>A dedicated quality assurance team should be provided to review implementation. The visual design team responsible for the design should provide secondary testing. <a name="note-12"></a>
+</li>
+<li>It is expected that browsers such as Chrome and Firefox will use that latest version. However for a release cycle an identified browser version is required. <a name="note-13"></a> </li>
+</ol>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/georgepaterson">georgepaterson</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
